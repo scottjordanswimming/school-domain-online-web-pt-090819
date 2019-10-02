@@ -22,7 +22,7 @@ end
 
 def sort 
   roster.each do |grade, names|
-    roster[grade] = roster[grade].sort
+    roster[grade] = names.sort
   end
 end
 
